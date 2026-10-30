@@ -184,7 +184,7 @@ See [Automatic CSRF protection demo](#automatic-csrf-protection-demo) for how to
 
 ## Running the Samples
 
-Requires the .NET 11 RC2 SDK (`11.0.100-rc.2.26504.105`) or later. There is no
+Requires the .NET 11 RC3 SDK (`11.0.100-rc.3.26522.148`) or later. There is no
 `global.json`; SDK selection follows the installed SDKs and any parent-directory configuration.
 
 ```pwsh
@@ -302,8 +302,8 @@ and the gateway proxies it to `BackendApi` via YARP. The proxy route/cluster (an
 address) are configured with `ReverseProxy__*` environment variables in
 `BlazorWasmFeatures/Properties/launchSettings.json`.
 
-ASP.NET Core package references use the RC2 build `11.0.0-rc.2.26504.105`.
+ASP.NET Core package references use the RC3 build `11.0.0-rc.3.26522.148`.
 The experimental `Microsoft.AspNetCore.Components.Testing` package retains a Preview 7
-version prefix, but uses the matching RC2 build `11.0.0-preview.7.26504.105`.
+version prefix, but uses the matching RC3 build `11.0.0-preview.7.26522.148`.
 All required packages are available on NuGet.org; no repository-specific NuGet configuration
 is needed.
